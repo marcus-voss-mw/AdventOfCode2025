@@ -96,6 +96,7 @@ bool isAllDigitsRepeated(long long n)
 
 int main()
 {
+    std::cout << "Advent Day 02" << std::endl;
     auto ranges = readInput(INPUT_FILE);
     long long sum = 0;
     for (const auto &range : ranges)
